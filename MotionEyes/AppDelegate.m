@@ -3,7 +3,7 @@
 //  MotionEyes
 //
 //  Created by Brett Graham on 2015-10-10.
-//  Copyright © 2015 Quickmobile. All rights reserved.
+//  Copyright © 2015 Brett Graham. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -51,7 +51,7 @@
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
 - (NSURL *)applicationDocumentsDirectory {
-    // The directory the application uses to store the Core Data store file. This code uses a directory named "com.quickmobile.MotionEyes" in the application's documents directory.
+    // The directory the application uses to store the Core Data store file. This code uses a directory named "com.Brett Graham.MotionEyes" in the application's documents directory.
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
 }
 

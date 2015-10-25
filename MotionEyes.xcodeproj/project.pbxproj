@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		877665951BCAF81200BC37FD /* EyesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 877665941BCAF81200BC37FD /* EyesView.m */; };
 		87C11B621BC985C700B9A545 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C11B611BC985C700B9A545 /* main.m */; };
 		87C11B651BC985C700B9A545 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C11B641BC985C700B9A545 /* AppDelegate.m */; };
 		87C11B681BC985C700B9A545 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C11B671BC985C700B9A545 /* ViewController.m */; };
 		87C11B6B1BC985C700B9A545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C11B691BC985C700B9A545 /* Main.storyboard */; };
 		87C11B6E1BC985C700B9A545 /* MotionEyes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87C11B6C1BC985C700B9A545 /* MotionEyes.xcdatamodeld */; };
 		87C11B701BC985C700B9A545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87C11B6F1BC985C700B9A545 /* Assets.xcassets */; };
-		87C11B731BC985C700B9A545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C11B711BC985C700B9A545 /* LaunchScreen.storyboard */; };
 		87C11B7E1BC985C700B9A545 /* MotionEyesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C11B7D1BC985C700B9A545 /* MotionEyesTests.m */; };
 		87C11B891BC985C700B9A545 /* MotionEyesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C11B881BC985C700B9A545 /* MotionEyesUITests.m */; };
 /* End PBXBuildFile section */
@@ -36,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		877665931BCAF81200BC37FD /* EyesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EyesView.h; sourceTree = "<group>"; };
+		877665941BCAF81200BC37FD /* EyesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EyesView.m; sourceTree = "<group>"; };
 		87C11B5D1BC985C700B9A545 /* MotionEyes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotionEyes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87C11B611BC985C700B9A545 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		87C11B631BC985C700B9A545 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,7 +47,6 @@
 		87C11B6A1BC985C700B9A545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87C11B6D1BC985C700B9A545 /* MotionEyes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MotionEyes.xcdatamodel; sourceTree = "<group>"; };
 		87C11B6F1BC985C700B9A545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		87C11B721BC985C700B9A545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87C11B741BC985C700B9A545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87C11B791BC985C700B9A545 /* MotionEyesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotionEyesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87C11B7D1BC985C700B9A545 /* MotionEyesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MotionEyesTests.m; sourceTree = "<group>"; };
@@ -108,8 +109,9 @@
 				87C11B661BC985C700B9A545 /* ViewController.h */,
 				87C11B671BC985C700B9A545 /* ViewController.m */,
 				87C11B691BC985C700B9A545 /* Main.storyboard */,
+				877665931BCAF81200BC37FD /* EyesView.h */,
+				877665941BCAF81200BC37FD /* EyesView.m */,
 				87C11B6F1BC985C700B9A545 /* Assets.xcassets */,
-				87C11B711BC985C700B9A545 /* LaunchScreen.storyboard */,
 				87C11B741BC985C700B9A545 /* Info.plist */,
 				87C11B6C1BC985C700B9A545 /* MotionEyes.xcdatamodeld */,
 				87C11B601BC985C700B9A545 /* Supporting Files */,
@@ -246,7 +248,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87C11B731BC985C700B9A545 /* LaunchScreen.storyboard in Resources */,
 				87C11B701BC985C700B9A545 /* Assets.xcassets in Resources */,
 				87C11B6B1BC985C700B9A545 /* Main.storyboard in Resources */,
 			);
@@ -277,6 +278,7 @@
 				87C11B651BC985C700B9A545 /* AppDelegate.m in Sources */,
 				87C11B621BC985C700B9A545 /* main.m in Sources */,
 				87C11B6E1BC985C700B9A545 /* MotionEyes.xcdatamodeld in Sources */,
+				877665951BCAF81200BC37FD /* EyesView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,14 +320,6 @@
 				87C11B6A1BC985C700B9A545 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		87C11B711BC985C700B9A545 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				87C11B721BC985C700B9A545 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -415,10 +409,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MotionEyes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.quickmobile.MotionEyes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -426,10 +425,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MotionEyes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.quickmobile.MotionEyes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -500,6 +504,7 @@
 				87C11B8F1BC985C700B9A545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87C11B901BC985C700B9A545 /* Build configuration list for PBXNativeTarget "MotionEyesTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +513,7 @@
 				87C11B921BC985C700B9A545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87C11B931BC985C700B9A545 /* Build configuration list for PBXNativeTarget "MotionEyesUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +522,7 @@
 				87C11B951BC985C700B9A545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
